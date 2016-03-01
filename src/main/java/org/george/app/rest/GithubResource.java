@@ -5,7 +5,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.druglord.rest;
+package org.george.app.rest;
 
 import java.net.URI;
 import java.net.URLEncoder;
