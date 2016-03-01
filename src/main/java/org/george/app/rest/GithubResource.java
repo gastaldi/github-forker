@@ -33,8 +33,8 @@ import javax.ws.rs.core.UriInfo;
 @javax.ws.rs.Path("/github")
 public class GithubResource
 {
-   // private static final String CLIENT_ID = "6305dace2dca7699e5b6";
-   // private static final String CLIENT_SECRET = "068f1e5ccdb287b1439bc6efe817e65f33b35ede";
+   // Create a Third-party application in Github
+   // https://github.com/organizations/<ORG>/settings/applications
    private static final String CLIENT_ID = "c8fa300d687e84f68109";
    private static final String CLIENT_SECRET = "eb96f86ca79c69209ffbc3e23dcf7696f333d171";
 
