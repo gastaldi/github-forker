@@ -34,9 +34,9 @@ import javax.ws.rs.core.UriInfo;
 public class GithubResource
 {
    // Create a Third-party application in Github
-   // https://github.com/organizations/<ORG>/settings/applications
-   private static final String CLIENT_ID = "c8fa300d687e84f68109";
-   private static final String CLIENT_SECRET = "eb96f86ca79c69209ffbc3e23dcf7696f333d171";
+   // https://github.com/settings/developers
+   private static final String CLIENT_ID = "cf62f13b1faca9bb9bdf";
+   private static final String CLIENT_SECRET = "d57da5f8b50cee449aa6903dfa306402e24641de";
 
    @GET
    @javax.ws.rs.Path("/fork")
